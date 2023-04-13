@@ -1,0 +1,36 @@
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+.nav__item1{
+  margin-right: var(--gutter-medium);
+  display: flex;
+  list-style: none;
+
+}
+
+.xxx{
+  margin-top: 2px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: auto;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  color: #ffffff;
+  padding: 5px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  color: #ff3258;
+}
+
+
+
